@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instituto Samara Monteiro | Links</title>
+    <meta name="description" content="Pilates e Fisioterapia Especializada em Ji-Paraná. Agende sua avaliação.">
+
+    <style>
+        :root {
+            /* Cores da Marca - Ajuste conforme sua preferência */
+            --bg-color: #f9f9f9;
+            --text-color: #333;
+            --button-bg: #ffffff;
+            --button-text: #000000;
+            --button-hover: #e0e0e0;
+            --accent-color: #4A90E2; /* Cor de destaque (ex: azul ou verde do logo) */
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 480px; /* Tamanho típico de mobile */
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        /* Foto de Perfil / Logo */
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid var(--accent-color);
+            margin-bottom: 20px;
+            background-color: #ddd; /* Cor de fundo caso não tenha imagem */
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        p {
+            font-size: 1rem;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        /* Estilo dos Botões (Links) */
+        .link-btn {
+            display: block;
+            width: 100%;
+            padding: 15px 0;
+            margin-bottom: 15px;
+            background-color: var(--button-bg);
+            color: var(--button-text);
+            text-decoration: none;
+            border-radius: 30px; /* Bordas arredondadas estilo Linktree */
+            border: 1px solid #ddd;
+            font-weight: 600;
+            transition: transform 0.2s, background-color 0.2s;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        .link-btn:hover {
+            transform: scale(1.02);
+            background-color: var(--button-hover);
+            border-color: var(--accent-color);
+        }
+
+        /* Botão de Destaque (ex: WhatsApp) */
+        .link-btn.highlight {
+            background-color: #25D366; /* Verde WhatsApp */
+            color: white;
+            border: none;
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 0.8rem;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="https://via.placeholder.com/150?text=ISM" alt="Logo Instituto Samara Monteiro" class="profile-pic">
+        
+        <h1>Instituto Samara Monteiro</h1>
+        <p>Pilates • Fisioterapia Pélvica • Quiropraxia<br>Ji-Paraná, RO</p>
+
+        <a href="https://wa.me/5569999999999?text=Olá, gostaria de agendar uma avaliação." class="link-btn highlight" target="_blank">
+            Agendar no WhatsApp
+        </a>
+
+        <a href="#" class="link-btn">Conheça o Pilates</a>
+        <a href="#" class="link-btn">Quiropraxia</a>
+        <a href="#" class="link-btn">Fisioterapia Pélvica</a>
+        <a href="#" class="link-btn">Fisioterapia Esportiva</a>
+        
+        <a href="https://share.google/KXFKylcJVXqYXzSq0" class="link-btn" target="_blank">
+            Como Chegar (Localização)
+        </a>
+
+        <footer>
+            © 2026 Instituto Samara Monteiro
+        </footer>
+    </div>
+
+</body>
+</html>
